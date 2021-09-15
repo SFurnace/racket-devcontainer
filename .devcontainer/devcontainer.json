@@ -21,7 +21,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sleep 3 && cd /root/.vscode-server/extensions/evzen-wybitul.magic-racket*/out && sed -r -e 's/^( +).*?--lib.*$/\\0\\n\\1options: { shell: true }/' -i extension.js",
+	// "postCreateCommand": "",
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
 }
